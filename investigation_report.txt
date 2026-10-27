@@ -1,0 +1,625 @@
+========================================
+ WINDOWS PROCESS INVESTIGATION REPORT
+========================================
+Report Time: 2026-10-27 12:02:13
+
+----------------------------------------
+PROCESS INVESTIGATION
+----------------------------------------
+Process    : C:\Program Files\Splunk\bin\splunk-netmon.exe
+PID        : 24056
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-netmon.exe"
+Hashes     : MD5=79A5A002A5C446D00F0112085E7C750D,SHA256=10DA8A064C74A41FE9ED0A892F5D818C5ADC27CC13E3AD08B77A79E4D175A935,IMPHASH=565509F9B39F8D2BA38747CD4F4E5C6C
+Severity   : LOW
+Reason     : Normal process activity
+
+----------------------------------------
+PROCESS INVESTIGATION
+----------------------------------------
+Process    : C:\Program Files\Splunk\bin\splunk-MonitorNoHandle.exe
+PID        : 25088
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-MonitorNoHandle.exe"
+Hashes     : MD5=4EA9C1C48DCD4EEEDBE1387C430EB79C,SHA256=CD38300C337F04DE22C336521CAB7EB7F2F8C37446861BCF87CEE94237B726B3,IMPHASH=EE3A35E2932400DF6C8D9472B6852CA5
+Severity   : LOW
+Reason     : Normal process activity
+
+----------------------------------------
+PROCESS INVESTIGATION
+----------------------------------------
+Process    : C:\Program Files\Splunk\bin\splunk-admon.exe
+PID        : 27184
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-admon.exe"
+Hashes     : MD5=85537DF58375D806C2BBEB0D6E6CB35A,SHA256=55BA26F9A9926F225B4D29986CB1A5B3F677896CFDEB37DADD69EADDE555314E,IMPHASH=51F9225483E2C57FDF098160AEE864C0
+Severity   : LOW
+Reason     : Normal process activity
+
+----------------------------------------
+PROCESS INVESTIGATION
+----------------------------------------
+Process    : C:\Program Files\Splunk\bin\python3.13.exe
+PID        : 27600
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\Python3.13.exe" "C:\Program Files\Splunk\etc\apps\splunk_secure_gateway\bin\ssg_enable_modular_input.py"
+Hashes     : MD5=AE10267F45CFA3E5A777FE6F545AE0FE,SHA256=B091B8906C1E7EB492D453D5BB72FF2A756B90A41EAC3C2593A2BC4C71FB62D1,IMPHASH=D233964EAA90E1B69B31D0C96B47B8D3
+Severity   : LOW
+Reason     : Normal process activity
+
+----------------------------------------
+PROCESS INVESTIGATION
+----------------------------------------
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 20700
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_internaldb\db\hot_v1_103" -x 1002879488 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : Normal process activity
+
+========================================
+Total events analyzed: 5
+========================================
+
+
+Monitoring session started: 2026-10-27 12:14:09
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:12
+Process    : C:\Program Files\Splunk\bin\python3.13.exe
+PID        : 14512
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\Python3.13.exe" "C:\Program Files\Splunk\etc\apps\splunk_secure_gateway\bin\ssg_enable_modular_input.py"
+Hashes     : MD5=AE10267F45CFA3E5A777FE6F545AE0FE,SHA256=B091B8906C1E7EB492D453D5BB72FF2A756B90A41EAC3C2593A2BC4C71FB62D1,IMPHASH=D233964EAA90E1B69B31D0C96B47B8D3
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:12
+Process    : C:\Program Files\Splunk\bin\splunk-admon.exe
+PID        : 15224
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-admon.exe"
+Hashes     : MD5=85537DF58375D806C2BBEB0D6E6CB35A,SHA256=55BA26F9A9926F225B4D29986CB1A5B3F677896CFDEB37DADD69EADDE555314E,IMPHASH=51F9225483E2C57FDF098160AEE864C0
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:12
+Process    : C:\Program Files\Splunk\bin\splunk-netmon.exe
+PID        : 1864
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-netmon.exe"
+Hashes     : MD5=79A5A002A5C446D00F0112085E7C750D,SHA256=10DA8A064C74A41FE9ED0A892F5D818C5ADC27CC13E3AD08B77A79E4D175A935,IMPHASH=565509F9B39F8D2BA38747CD4F4E5C6C
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:12
+Process    : C:\Program Files\Splunk\bin\splunk-MonitorNoHandle.exe
+PID        : 3704
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-MonitorNoHandle.exe"
+Hashes     : MD5=4EA9C1C48DCD4EEEDBE1387C430EB79C,SHA256=CD38300C337F04DE22C336521CAB7EB7F2F8C37446861BCF87CEE94237B726B3,IMPHASH=EE3A35E2932400DF6C8D9472B6852CA5
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:15
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 4580
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_internaldb\db\hot_v1_103" -x 1000092160 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:15
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 22800
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_introspection\db\hot_v1_77" -x 1000092160 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:15
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 22580
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_384" -x 1000091648 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:15
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 13600
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_385" -x 1000091648 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:15
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 19768
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_386" -x 1000091648 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:15
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 7204
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_387" -x 999983104 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:15
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 13108
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_388" -x 1000100352 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:18
+Process    : C:\Program Files\Splunk\bin\splunk-powershell.exe
+PID        : 16100
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-powershell.exe" --ps2
+Hashes     : MD5=7994FD57971132CBFC64EBE2EE2112E1,SHA256=DC40F98C822E9D29EB389280339FA7F9A722A8C5E02E725071AD5E2B2F765981,IMPHASH=6F41FC09BE809EE125B576219D6C1399
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:18
+Process    : C:\Program Files\Splunk\bin\splunk-regmon.exe
+PID        : 10244
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-regmon.exe"
+Hashes     : MD5=1496BB70260025FDFC60B56C302FC1BE,SHA256=D6326A4929661325F253A4210748766C288C01A5B349B5FE2336D36E8F41E822,IMPHASH=39C7A6DA3F9AE88FCBB37E545EA7AC3A
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:18
+Process    : C:\Program Files\Splunk\bin\splunk-winevtlog.exe
+PID        : 7596
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-winevtlog.exe"
+Hashes     : MD5=573459B0C226CA2CBA88D85D3D82517C,SHA256=F5A6D3EB7F0A40D5118082095B2F60AAC4DF536089878046CB9255BB31FC0F35,IMPHASH=CF2E4829FF8DC0F4F776BFF9DD558B7B
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:18
+Process    : C:\Program Files\Splunk\bin\splunk-powershell.exe
+PID        : 17832
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: "C:\Program Files\Splunk\bin\splunk-powershell.exe"
+Hashes     : MD5=7994FD57971132CBFC64EBE2EE2112E1,SHA256=DC40F98C822E9D29EB389280339FA7F9A722A8C5E02E725071AD5E2B2F765981,IMPHASH=6F41FC09BE809EE125B576219D6C1399
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:18
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 12732
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\audit\db\hot_v1_77" -x 1000084480 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:21
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 18676
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_internaldb\db\hot_v1_103" -x 1000083968 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:27
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 27564
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_internaldb\db\hot_v1_103" -x 1000078848 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:27
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 10508
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_introspection\db\hot_v1_77" -x 1000078848 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:27
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 17296
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_385" -x 1000078336 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:27
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 13352
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_386" -x 1000078336 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:27
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 12032
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_388" -x 1000077824 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:33
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 10656
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_385" -x 1000079872 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:33
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 21072
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_386" -x 1000079872 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:33
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 21360
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_388" -x 1000079872 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:39
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 21736
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\audit\db\hot_v1_77" -x 1000078848 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:39
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 7916
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_internaldb\db\hot_v1_103" -x 1000077312 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:39
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 18132
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_introspection\db\hot_v1_77" -x 1000077312 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:46
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 22940
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_internaldb\db\hot_v1_103" -x 1000077312 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:46
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 24624
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_introspection\db\hot_v1_77" -x 1000076800 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:46
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 22328
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_384" -x 1000076800 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:46
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 11312
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_385" -x 1000076800 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:46
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 14620
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_386" -x 999943168 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:46
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 17816
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_387" -x 999943168 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:14:46
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 26704
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_metrics\db\hot_v1_388" -x 1000084992 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+
+Monitoring session started: 2026-10-27 12:15:35
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:15:38
+Process    : C:\Users\kisho\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe
+PID        : 17372
+Parent     : C:\Users\kisho\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe
+User       : K_Kishor_Kumar\kisho
+Integrity  : Low
+CommandLine: "C:\Users\kisho\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe" --type=renderer --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --no-pre-read-main-dll --video-capture-use-gpu-memory-buffer --lang=en-US --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=41 --launch-time-ticks=331571571855 --metrics-shmem-handle=8484,i,10450584355862683295,6255137535400949495,1572864 --field-trial-handle=2008,i,5403374795704914585,362926646548899028,262144 --variations-seed-version=main@eaa8520eae6755a2f712eab57526f47bf0ad5f72 --pseudonymization-salt-handle=2016,i,2749222070638875025,8840441835209959229,4 --trace-process-track-uuid=3190709024730587303 --mojo-platform-channel-handle=8584 /prefetch:1
+Hashes     : MD5=E56A441F2AF464F88303439AFFCA46B8,SHA256=70372E06EEF532C7E89F13E17569D8F5793F13671B8607A242292F68D0A1CD25,IMPHASH=069A61C8B866DBED1A66FA4F6DE2B533
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:15:38
+Process    : C:\Users\kisho\AppData\Local\Programs\Python\Python313\python.exe
+PID        : 25156
+Parent     : C:\Windows\System32\cmd.exe
+User       : K_Kishor_Kumar\kisho
+Integrity  : High
+CommandLine: python  investigator.py
+Hashes     : MD5=83226A8C8C55106A3F6081A9344C749B,SHA256=D87063E5597F257004C731B66C59C56C91038861C6877B1A3DCA6B8C4E919125,IMPHASH=D233964EAA90E1B69B31D0C96B47B8D3
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:15:38
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 6660
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\audit\db\hot_v1_77" -x 999345664 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
+
+----------------------------------------
+PROCESS INVESTIGATION
+Time       : 2026-10-27 12:15:38
+Process    : C:\Program Files\Splunk\bin\splunk-optimize.exe
+PID        : 27632
+Parent     : C:\Program Files\Splunk\bin\splunkd.exe
+User       : NT SERVICE\Splunkd
+Integrity  : High
+CommandLine: splunk-optimize -d "C:\Program Files\Splunk\var\lib\splunk\_internaldb\db\hot_v1_103" -x 999345664 --log-to--splunkd-log --write-level 3 --tsidx-target-size 1572864000 --msidx-comp-block-size 1024
+Hashes     : MD5=BD493098EFAA3A11DFA16F4C719D7687,SHA256=31490A3B878DEE7EA44D27342ECBD5147D0448F9B1401B8F9CD61B7A39835695,IMPHASH=16EA62D536048C78486E87CF4F7851F6
+Severity   : LOW
+Reason     : No configured suspicious pattern matched
+
